@@ -9,8 +9,8 @@ terraform {
   required_version = ">= 1.2.0"
 }
 
-provider "aws" {
-  region = "af-south-1"
+provider "aws" {    
+  region = "us-west-2"
 }
 
 resource "aws_instance" "app_server" {
